@@ -1,5 +1,5 @@
 function FindProxyForURL(url, host) {
-	if (shExpMatch(host,"dknp.e-pointchina.com.cn")) {
+	if (shExpMatch(host,"*.e-pointchina.com.cn")) {
 	return "PROXY kungfoos.cn:8899";
 	}
 	if (shExpMatch(host,"*.spdbccc.com.cn")) {
